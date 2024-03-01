@@ -36,7 +36,6 @@ FLask+ Python2.7
 
 
 #useage:
-python  RESTful_DNSPOD_LOG.py
+python  restful_dnspod_log/mian.py
 
 
-LTAI4G4MuHQZRvmbw3kpcs8d

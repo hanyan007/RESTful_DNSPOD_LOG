@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 #-*- coding: utf-8 -*-
 # @Date    : 2017-03-08
-# @Author  : Bruce (hanyan_007@139.com)
+# @Author  : hanyan_news
 import base64
 import random
 import time
@@ -21,7 +21,7 @@ resp= {}
 
 ACCESS = {
     'test': '666666',
-    'xf.shen': 'swjoy8899'
+    'xf.shen': 'test8899'
 }
 
 def info_response(info,status='0',state='failed'):
@@ -77,7 +77,7 @@ def swjoy_dnspod():
         if request.args.get('token'):
             token = request.args.get('token')
             posturl = 'https://dnsapi.cn/Domain.Log'
-            postdata = {'login_token':'yourID,yourToken','format':'json','domain':'swjoy.com','length':'30'}
+            postdata = {'login_token':'yourID,yourToken','format':'json','domain':'test.com','length':'30'}
             req = urllib2.Request(posturl)
             data = urllib.urlencode(postdata)
             opener = urllib2.build_opener(urllib2.HTTPCookieProcessor())
