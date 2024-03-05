@@ -14,12 +14,15 @@ with open("README.rst", "r") as f:
 
 
 setup(name='restful_dnspod_log',  # 包名
-      version='1.0.0',  # 版本号
+      version='1.0.1',  # 版本号
       description='return the log for dns resolution',
       long_description=long_description,
       author='hanyan_news',
       author_email='hanyan0572@gmail.com',
       url='https://github.com/hanyan007/RESTful_DNSPOD_LOG.git',
+      project_urls={  # Optional
+          "Source": 'https://github.com/hanyan007/RESTful_DNSPOD_LOG.git',
+      },
       install_requires=["package-tea-hanyan==1.0.2", "dnspod-domain-log==1.0.2"],
       license='BSD License',
       packages=find_packages(),
