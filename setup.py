@@ -14,7 +14,7 @@ with open("README.rst", "r") as f:
 
 
 setup(name='restful_dnspod_log',  # 包名
-      version='1.0.1',  # 版本号
+      version='1.0.2',  # 版本号
       description='return the log for dns resolution',
       long_description=long_description,
       author='hanyan_news',
@@ -23,7 +23,7 @@ setup(name='restful_dnspod_log',  # 包名
       project_urls={  # Optional
           "Source": 'https://github.com/hanyan007/RESTful_DNSPOD_LOG.git',
       },
-      install_requires=["package-tea-hanyan==1.0.2", "dnspod-domain-log==1.0.2"],
+      install_requires=["package-tea-hanyan==1.0.4", "dnspod-domain-log==1.0.2", "package-tea-one==1.0.0"],
       license='BSD License',
       packages=find_packages(),
       platforms=["all"],
